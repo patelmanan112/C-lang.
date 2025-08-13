@@ -7,7 +7,8 @@ int main(){
     for (int b=1; b<=a; b=b+1){
      
         c=c*b;
-        printf("%d\n",c);
+        // printf("%d\n",c);
     }
-
+      printf("%d\n",c);
+ return 0;
 }
