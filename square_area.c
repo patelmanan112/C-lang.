@@ -2,9 +2,9 @@
 int main(){
 int a;
  printf("enter your side of area");
- scanf("%d",a);
+ scanf("%d",&a);
   int c = a*a;
-  if (a>100){
+  if (c>100){
     printf("large square");
   }
   else {
