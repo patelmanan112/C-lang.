@@ -16,7 +16,7 @@ int main(){
         printf("b is not divisible but  divisible by a");
     }
     else{
-        printf("not divided by both");
+        printf("invalid result");
     }
     return 0;
 }
