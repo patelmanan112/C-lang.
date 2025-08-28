@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 int main(){
     int a;
     int b;
@@ -10,6 +11,11 @@ int main(){
         if (a==b && b==c && a==c){
             printf("EQUILATERAl");
         }
-        else if (a==b && a!=c || a==c && b!=c)
       }
+      else if (a==b && a!=c || a==c && b!=c || b==c && a!=c ){
+          printf("isoscalene");
+        }
+        else{
+          printf("scalene");
+        }
 }
