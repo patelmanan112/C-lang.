@@ -20,7 +20,7 @@ int main(){
         int num5 =a%10;
         int num6 =num3*10;
         int num7= num4-num6;
-        int  sum2= (num3*num3) +(num7*num7) +(num5*num5);
+        int  sum2= (num3*num3*num3) +(num7*num7*num7) +(num5*num5*num5);
         printf("%d",sum2);
     }
     return 0;

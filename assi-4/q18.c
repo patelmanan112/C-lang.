@@ -3,22 +3,20 @@
 
 int main()
 {
-  int a;
-  scanf("%d",&a);
-  int num1= a/100;
-  int num2=a%100;
-  int num11= num1/10;
-  int num12= num1%10;
-  int num21=num2/10;
-  int num22=num2%10;
-  
-  int sum1= num11 +num12;
-  int sum2= num22 +num21;
-  if(sum1==sum2){
-      printf("Balance Pair");
+  int n1,n2,n3,n4;
+  scanf("%d %d %d %d",&n1, &n2,&n3, &n4);
+  if(n1+n2== n3+n4){
+    printf("Balanced");
+  }
+  else if(n1+n3==n2+n4){
+    printf("Balanced");
+  }
+  else if(n1+n4== n2+n3){
+    printf("Balanced");
   }
   else{
-      printf("Unbalance Pair");
+    printf("Unbalanced");
   }
+
     return 0;
 }
