@@ -18,7 +18,10 @@ int main() {
          printf("\n%d\n",c);
          c=c+1;
      }
+
      while(c<=5);
-     
+
+
+
     return 0;
 }
